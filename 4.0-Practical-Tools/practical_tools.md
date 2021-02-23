@@ -2,7 +2,7 @@
 
 ## Extra tutorials - Helps reading this chapter.
 
-## 4.0.1 Banners (AKA Service Fingerprinting)
+### 4.0.1 Banners (AKA Service Fingerprinting)
 Banner refers to a text message received from the host, usually, it includes information about the open prots and services with their version numbers.
 	
 - Types of Banner Grabbing
@@ -12,7 +12,7 @@ Banner refers to a text message received from the host, usually, it includes inf
 - Banner Grabbing Tools
 	> `whatweb`, `cURL`, `wget`, `telnet`, `Nikto`, `Nmap`, `Dmitry`, `BurpSuite`, `Netcraft`, `ID Serve`, `Wappalyzer(Browser Extension)`, `HTTP Header Live(Browser Extension)`
 
-## 4.0.2 OSI Layer Model
+### 4.0.2 OSI Layer Model
 
 **Developer Concentration Section**
 
