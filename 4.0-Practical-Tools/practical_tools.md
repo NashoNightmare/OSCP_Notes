@@ -1,8 +1,8 @@
-## 4.0 Practical Tools
+# 4.0 Practical Tools
 
-### Extra tutorials - Helps reading this chapter.
+## Extra tutorials - Helps reading this chapter.
 
-### 4.0.1 Banners (AKA Service Fingerprinting)
+## 4.0.1 Banners (AKA Service Fingerprinting)
 Banner refers to a text message received from the host, usually, it includes information about the open prots and services with their version numbers.
 	
 - Types of Banner Grabbing
@@ -12,7 +12,7 @@ Banner refers to a text message received from the host, usually, it includes inf
 - Banner Grabbing Tools
 	> `whatweb`, `cURL`, `wget`, `telnet`, `Nikto`, `Nmap`, `Dmitry`, `BurpSuite`, `Netcraft`, `ID Serve`, `Wappalyzer(Browser Extension)`, `HTTP Header Live(Browser Extension)`
 
-### 4.0.2 OSI Layer Model
+## 4.0.2 OSI Layer Model
 
 **Developer Concentration Section**
 
@@ -89,7 +89,7 @@ and deactivating the physical link.
 - Process of conversion from layer to layer. (Always communication happens between layer n to layer n of the other side. Eg: Layer 7 communicates with Layer 7)
 - [NetworkChuck Demonstrates the process of OSI Model well](https://www.youtube.com/watch?v=3kfO61Mensg&list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P&index=5) 
 
-### 4.1 NetCat
+## 4.1 NetCat
 
 Utility that reads and writes data across network connections, using TCP or UDP protocols.
 
@@ -106,15 +106,15 @@ Utility that reads and writes data across network connections, using TCP or UDP 
 - **Applications of NetCat**
 	- Blind Shell
 
-### 4.2 SoCat
+## 4.2 SoCat
 
-### 4.3 PowerShell
+## 4.3 PowerShell
 
-### 4.4 PowerCat
+## 4.4 PowerCat
 
-### 4.5 Wireshark (Traffic  Sniffer)
+## 4.5 Wireshark (Traffic  Sniffer)
 
 Wireshark uses Libpcap101 (on Linux) or Winpcap102 (on Windows) libraries in order to capture packets from the network.		
 
-### 4.6 TCP Dump
+## 4.6 TCP Dump
 

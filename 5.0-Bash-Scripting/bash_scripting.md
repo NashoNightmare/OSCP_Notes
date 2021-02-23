@@ -1,5 +1,4 @@
-
-## 5.0 Bash Scripting
+# 5.0 Bash Scripting
 
 **Shebang** : `#!/bin/bash`, `#!/bin/bash -x` : `-x` flag for additional debug output -  This is what makes this a “Bash script” as opposed to another type of shell script, like a “C Shell script”.
 

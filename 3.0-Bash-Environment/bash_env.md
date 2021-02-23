@@ -1,16 +1,17 @@
-## 3.0 Bash Environment
+# 3.0 Bash Environment
 When opening a new terminal window, a new Bash process, which has its own **Environment variables**, is initialized. One of the most commonly-referenced environment variable is **PATH (Colon seperated directory paths that bash will search through whenever a command is run without a full path.** 
 
 To view the contents of a environment variable :
-> `$ echo $PATH` - To view the contents of a given environment variable.
+
+- `$ echo $PATH` - To view the contents of a given environment variable.
 
 Some other useful environment variables : `USER` , `PWD` , `HOME` , `$`-Process id of the current shell
 
-> `$ export <name>=<value>` - To define a environment variable. NB: *If we do not use `export` to define the variable the variable will be limited to the current shell.
+- `$ export <name>=<value>` - To define a environment variable. NB: *If we do not use `export` to define the variable the variable will be limited to the current shell.
 
-> `$ env` - To view all environment variables
+- `$ env` - To view all environment variables
 
-### 3.3 RegEx
+## 3.3 RegEx
 A pattern which describes a certain amount of text.
 
 - **Metacharacters** [Those characters should used with escape characters when it is used as a literal.]
@@ -40,7 +41,7 @@ Reference(NB:This resource is very good): [http://www.regular-expressions.info](
 
 Reference: [RexEgg Cheatsheet](http://www.rexegg.com/regex-quickstart.html#chars) 
 
-### 3.4 Text-Fu - Tools
+## 3.4 Text-Fu - Tools
 - **Grep** (Searches text files for the occurence given regex and outputs any line containing a match to stdout)
 > `grep <regex>` - Use `-r` for recursive and `-i` for case ignorance.
 
@@ -73,17 +74,17 @@ Reference : [Sed Tutorial](https://www.digitalocean.com/community/tutorials/the-
 - **Tr** (Used to translate characters into another, Lot more like sed)
 > `tr '<character_to_replace>` '<replace_with_this_character>'`
 
-### 3.5 Diffing
+## 3.5 Diffing
 
-> `comm file1 file2` - Outputs 3 columns (1-lines unique to file1, 2-lines unique to file2, 3-lines common in both files
+- `comm file1 file2` - Outputs 3 columns (1-lines unique to file1, 2-lines unique to file2, 3-lines common in both files
 
-> `diff -c file1 file2` - Another tool to find the differences in two files.
+- `diff -c file1 file2` - Another tool to find the differences in two files.
 
-> `vimdiff file1 file2` - More visual aided tool.
+- `vimdiff file1 file2` - More visual aided tool.
 
->
+-
 
-### 3.6 Managing Processes
+## 3.6 Managing Processes
 - **Processes**
 
 	- The kernel maintain information about each process to help keep things organized, and each process is assigned a number called **Process ID (PID)**
@@ -129,7 +130,7 @@ For more indepth [linux processes](https://github.com/NashoNightmare/Linux-Kerne
 		> `pstree -aclp` : More detailed process display, Grab the process id from here and grep it from traditional `ps aux` for gather more details.
 			
 
-### 3.7 File and Command Monitoring
+## 3.7 File and Command Monitoring
 
 Please refer to [Section 2.6](https://github.com/NashoNightmare/OSCP-Notes#26-other-useful-commands) to more commands.
 
@@ -143,7 +144,7 @@ Please refer to [Section 2.6](https://github.com/NashoNightmare/OSCP-Notes#26-ot
 	
 	> `watch -n <interval_time_in_sec> "<command>"` - Runs a command after specified interval and updates the terminal.
 
-### 3.8 Downloading Files
+## 3.8 Downloading Files
 
 - **Wget**
 
